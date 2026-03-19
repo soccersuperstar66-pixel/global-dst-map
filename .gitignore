@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+.cache/
+
+# Large vendored files (download via scripts/download-geojson.sh)
+artifacts/dst-map/public/countries.geojson
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local

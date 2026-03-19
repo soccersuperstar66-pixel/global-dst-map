@@ -1,0 +1,626 @@
+[
+  {
+    "countryCode": "FR",
+    "countryName": "France",
+    "status": "enacted",
+    "taxRate": 3,
+    "revenueThreshold": {
+      "global": 750000000,
+      "domestic": 25000000,
+      "currency": "EUR"
+    },
+    "affectedCompanies": ["Google", "Facebook/Meta", "Amazon", "Apple", "Twitter/X"],
+    "estimatedAnnualRevenue": 500000000,
+    "effectiveDate": "2019-01-01",
+    "proposalDate": null,
+    "notes": "France was the first major economy to enact a true DST. The 3% tax applies to gross revenue from digital advertising services and digital intermediary services — it is explicitly a revenue-based levy on digital companies, distinct from France's standard VAT. It caused significant US trade friction (USTR Section 301 investigation, tariff threats). France has pledged to repeal once OECD Pillar One is in force."
+  },
+  {
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "status": "enacted",
+    "taxRate": 2,
+    "revenueThreshold": {
+      "global": 500000000,
+      "domestic": 25000000,
+      "currency": "GBP"
+    },
+    "affectedCompanies": ["Google", "Facebook/Meta", "Amazon", "Twitter/X", "Airbnb"],
+    "estimatedAnnualRevenue": 700000000,
+    "effectiveDate": "2020-04-01",
+    "proposalDate": null,
+    "notes": "The UK's DST is a standalone 2% levy on UK revenues of social media platforms, internet search engines, and online marketplaces. It is a dedicated gross-revenue tax on digital companies — separate from and in addition to UK VAT. HMRC projects roughly £700M annually. The UK has committed to repeal upon OECD Pillar One entering into force."
+  },
+  {
+    "countryCode": "IT",
+    "countryName": "Italy",
+    "status": "enacted",
+    "taxRate": 3,
+    "revenueThreshold": {
+      "global": 750000000,
+      "domestic": 5500000,
+      "currency": "EUR"
+    },
+    "affectedCompanies": ["Google", "Facebook/Meta", "Amazon", "Apple", "LinkedIn"],
+    "estimatedAnnualRevenue": 400000000,
+    "effectiveDate": "2020-01-01",
+    "proposalDate": null,
+    "notes": "Italy's standalone Digital Services Tax imposes a 3% levy on gross revenue from targeted digital advertising, digital intermediary services, and data transmission services. It is a dedicated DST operating separately from Italian VAT. Italy faces US trade pressure and was included in the USTR Section 301 DST investigations."
+  },
+  {
+    "countryCode": "ES",
+    "countryName": "Spain",
+    "status": "enacted",
+    "taxRate": 3,
+    "revenueThreshold": {
+      "global": 750000000,
+      "domestic": 3000000,
+      "currency": "EUR"
+    },
+    "affectedCompanies": ["Google", "Facebook/Meta", "Amazon", "Apple", "Booking.com"],
+    "estimatedAnnualRevenue": 250000000,
+    "effectiveDate": "2021-01-16",
+    "proposalDate": null,
+    "notes": "Spain's standalone DST — the Impuesto sobre Determinados Servicios Digitales (IDSD) — imposes a 3% levy on gross revenue from online advertising services, digital intermediary services, and data transmission services. This is a dedicated DST separate from Spanish VAT, applicable to large non-resident digital companies. Included in the US Section 301 investigation."
+  },
+  {
+    "countryCode": "TR",
+    "countryName": "Turkey",
+    "status": "enacted",
+    "taxRate": 7.5,
+    "revenueThreshold": {
+      "global": null,
+      "domestic": null,
+      "currency": "TRY"
+    },
+    "affectedCompanies": ["Google", "Facebook/Meta", "Netflix", "Amazon", "Twitter/X"],
+    "estimatedAnnualRevenue": 150000000,
+    "effectiveDate": "2020-03-01",
+    "proposalDate": null,
+    "notes": "Turkey's Digital Services Tax (DST) carries one of the highest rates globally at 7.5%, applying to gross revenue from online advertising, digital content sales, and digital platform intermediation. It is a dedicated DST — not a standard VAT — and applies broadly with no domestic revenue floor. Turkey was included in the USTR Section 301 DST investigation."
+  },
+  {
+    "countryCode": "IN",
+    "countryName": "India",
+    "status": "enacted",
+    "taxRate": 6,
+    "revenueThreshold": {
+      "global": null,
+      "domestic": null,
+      "currency": "INR"
+    },
+    "affectedCompanies": ["Google", "Facebook/Meta", "Amazon", "LinkedIn", "Twitter/X"],
+    "estimatedAnnualRevenue": 400000000,
+    "effectiveDate": "2016-06-01",
+    "proposalDate": null,
+    "notes": "India's Equalization Levy is a true DST-equivalent: a 6% revenue-based charge on online advertising services provided by non-residents, applied directly to gross payments — not through the standard GST system. A broader 2% levy on non-resident e-commerce was added in 2020 but was repealed in 2024 as part of a US trade agreement. The 6% levy on advertising remains."
+  },
+  {
+    "countryCode": "KE",
+    "countryName": "Kenya",
+    "status": "enacted",
+    "taxRate": 1.5,
+    "revenueThreshold": {
+      "global": null,
+      "domestic": null,
+      "currency": "KES"
+    },
+    "affectedCompanies": ["Google", "Netflix", "Uber", "Amazon", "Airbnb"],
+    "estimatedAnnualRevenue": 10000000,
+    "effectiveDate": "2021-01-01",
+    "proposalDate": null,
+    "notes": "Kenya's Digital Service Tax (DST) is an explicit 1.5% gross-revenue levy on income derived from services provided through digital marketplaces — one of the first standalone DSTs in sub-Saharan Africa. It applies to both resident and non-resident providers of streaming, search, and e-commerce services, separate from Kenya's VAT."
+  },
+  {
+    "countryCode": "CA",
+    "countryName": "Canada",
+    "status": "enacted",
+    "taxRate": 3,
+    "revenueThreshold": {
+      "global": 1100000000,
+      "domestic": 20000000,
+      "currency": "CAD"
+    },
+    "affectedCompanies": ["Google", "Facebook/Meta", "Amazon", "Apple", "Netflix"],
+    "estimatedAnnualRevenue": 1000000000,
+    "effectiveDate": "2024-01-01",
+    "proposalDate": "2021-04-19",
+    "notes": "Canada's Digital Services Tax (DST) is a standalone 3% levy on Canadian revenues from online marketplace services, online advertising, social media, and user data. Enacted retroactively to January 1, 2024, it triggered significant US trade retaliation threats and demands for bilateral renegotiation. Canada views it partly as a bargaining chip in OECD Pillar One talks."
+  },
+  {
+    "countryCode": "AT",
+    "countryName": "Austria",
+    "status": "enacted",
+    "taxRate": 5,
+    "revenueThreshold": {
+      "global": 750000000,
+      "domestic": 25000000,
+      "currency": "EUR"
+    },
+    "affectedCompanies": ["Google", "Facebook/Meta", "Amazon"],
+    "estimatedAnnualRevenue": 20000000,
+    "effectiveDate": "2020-01-01",
+    "proposalDate": null,
+    "notes": "Austria's Digital Advertising Tax (Digitalsteuer) is a standalone 5% levy on gross online advertising revenue, separate from Austrian VAT. It is narrower than most European DSTs — covering only online advertising — but is a genuine revenue-based DST. Austria was included in the US Section 301 DST trade investigation."
+  },
+  {
+    "countryCode": "HU",
+    "countryName": "Hungary",
+    "status": "enacted",
+    "taxRate": 7.5,
+    "revenueThreshold": {
+      "global": null,
+      "domestic": null,
+      "currency": "HUF"
+    },
+    "affectedCompanies": ["Google", "Facebook/Meta", "Amazon"],
+    "estimatedAnnualRevenue": 10000000,
+    "effectiveDate": "2017-01-01",
+    "proposalDate": null,
+    "notes": "Hungary's Advertisement Tax imposes a tiered gross-revenue levy on advertising income, with the top bracket at 7.5% for large advertisers. While it covers both traditional and online advertising, the top-tier levy falls primarily on large digital advertisers such as Google and Facebook and functions as a DST-equivalent for revenue above the highest threshold."
+  },
+  {
+    "countryCode": "TZ",
+    "countryName": "Tanzania",
+    "status": "enacted",
+    "taxRate": 2,
+    "revenueThreshold": {
+      "global": null,
+      "domestic": null,
+      "currency": "TZS"
+    },
+    "affectedCompanies": ["Google", "Facebook/Meta", "Netflix"],
+    "estimatedAnnualRevenue": 3000000,
+    "effectiveDate": "2022-07-01",
+    "proposalDate": null,
+    "notes": "Tanzania enacted a standalone Digital Services Tax applicable to non-resident entities providing digital services to Tanzanian consumers. The 2% rate applies to the total transaction value — not as a VAT but as a direct tax on gross digital revenue — covering streaming, social media, search engines, and app stores."
+  },
+  {
+    "countryCode": "NG",
+    "countryName": "Nigeria",
+    "status": "enacted",
+    "taxRate": 6,
+    "revenueThreshold": {
+      "global": null,
+      "domestic": 25000000,
+      "currency": "NGN"
+    },
+    "affectedCompanies": ["Netflix", "Google", "Facebook/Meta", "Twitter/X", "Amazon"],
+    "estimatedAnnualRevenue": 20000000,
+    "effectiveDate": "2021-01-01",
+    "proposalDate": null,
+    "notes": "Nigeria's Finance Act 2021 introduced a Significant Economic Presence (SEP) rule requiring non-resident digital companies to pay companies income tax on profits attributable to Nigeria. While profit-based in structure, enforcement uses a deemed 20% profit margin on gross digital revenues — making it function as an effective 6% gross revenue levy, comparable to a DST in economic impact."
+  },
+  {
+    "countryCode": "ZW",
+    "countryName": "Zimbabwe",
+    "status": "enacted",
+    "taxRate": 5,
+    "revenueThreshold": {
+      "global": null,
+      "domestic": null,
+      "currency": "USD"
+    },
+    "affectedCompanies": ["Netflix", "Google", "Facebook/Meta"],
+    "estimatedAnnualRevenue": 2000000,
+    "effectiveDate": "2020-01-01",
+    "proposalDate": null,
+    "notes": "Zimbabwe enacted a standalone Digital Economy Tax applicable to non-resident providers of digital and electronic services. The 5% levy applies to the gross amount charged — it is not part of Zimbabwe's VAT system but a separate gross-revenue charge on digital transactions by foreign platforms."
+  },
+  {
+    "countryCode": "CZ",
+    "countryName": "Czech Republic",
+    "status": "proposed",
+    "taxRate": 7,
+    "revenueThreshold": {
+      "global": 750000000,
+      "domestic": 100000000,
+      "currency": "CZK"
+    },
+    "affectedCompanies": ["Google", "Facebook/Meta", "Amazon", "Apple"],
+    "estimatedAnnualRevenue": 15000000,
+    "effectiveDate": null,
+    "proposalDate": "2020-01-01",
+    "notes": "Czech Republic has formally proposed a 7% standalone DST on revenue from digital advertising, multilateral digital interfaces, and sale of user data. At 7%, it would be among the highest DST rates in Europe if enacted. The proposal has been deferred pending OECD Pillar One negotiations but remains on the legislative agenda."
+  },
+  {
+    "countryCode": "SK",
+    "countryName": "Slovakia",
+    "status": "proposed",
+    "taxRate": null,
+    "revenueThreshold": {
+      "global": null,
+      "domestic": null,
+      "currency": "EUR"
+    },
+    "affectedCompanies": ["Google", "Facebook/Meta", "Amazon"],
+    "estimatedAnnualRevenue": null,
+    "effectiveDate": null,
+    "proposalDate": "2021-01-01",
+    "notes": "Slovakia has formally discussed implementing a standalone DST aligned with EU guidelines and has published a government consultation document. No draft legislation has been introduced. Slovakia's DST proposal remains tied to the outcome of OECD Pillar One negotiations and any future EU-wide digital tax directive."
+  },
+  {
+    "countryCode": "PL",
+    "countryName": "Poland",
+    "status": "proposed",
+    "taxRate": null,
+    "revenueThreshold": {
+      "global": null,
+      "domestic": null,
+      "currency": "PLN"
+    },
+    "affectedCompanies": ["Google", "Facebook/Meta", "Netflix", "Amazon"],
+    "estimatedAnnualRevenue": null,
+    "effectiveDate": null,
+    "proposalDate": "2021-06-01",
+    "notes": "Poland has proposed a standalone digital advertising levy and a streaming media fee earmarked for local content production. Neither has been enacted. Discussion has stalled amid OECD negotiations and concerns about US retaliation. A formal DST bill modeled on European approaches has been floated but not introduced."
+  },
+  {
+    "countryCode": "BR",
+    "countryName": "Brazil",
+    "status": "proposed",
+    "taxRate": null,
+    "revenueThreshold": {
+      "global": null,
+      "domestic": null,
+      "currency": "BRL"
+    },
+    "affectedCompanies": ["Google", "Facebook/Meta", "Amazon", "Apple", "Netflix"],
+    "estimatedAnnualRevenue": null,
+    "effectiveDate": null,
+    "proposalDate": "2021-08-01",
+    "notes": "Brazil has debated a standalone CIDE Digital contribution on multinational digital platforms. Multiple legislative proposals have been introduced in Congress but none enacted. Brazil already applies ISSQN (a municipal services tax) on digital services, but a federal DST specifically targeting large digital companies has not been passed."
+  },
+  {
+    "countryCode": "ID",
+    "countryName": "Indonesia",
+    "status": "proposed",
+    "taxRate": null,
+    "revenueThreshold": {
+      "global": null,
+      "domestic": null,
+      "currency": "IDR"
+    },
+    "affectedCompanies": ["Google", "Facebook/Meta", "Netflix", "Amazon", "Apple"],
+    "estimatedAnnualRevenue": null,
+    "effectiveDate": null,
+    "proposalDate": "2023-01-01",
+    "notes": "Indonesia's Ministry of Finance has released consultation documents on a standalone digital services tax for large foreign digital platforms, separate from its existing VAT on digital services. Multiple draft frameworks have been circulated but no formal bill has been introduced in the DPR. A standalone DST proposal remains under active consideration."
+  },
+  {
+    "countryCode": "BO",
+    "countryName": "Bolivia",
+    "status": "proposed",
+    "taxRate": null,
+    "revenueThreshold": {
+      "global": null,
+      "domestic": null,
+      "currency": "BOB"
+    },
+    "affectedCompanies": ["Netflix", "Google", "Facebook/Meta"],
+    "estimatedAnnualRevenue": null,
+    "effectiveDate": null,
+    "proposalDate": "2022-03-01",
+    "notes": "Bolivia has introduced draft legislation for a standalone Digital Transaction Tax on gross revenue earned by foreign digital platforms from Bolivian users. The proposal covers streaming, social media, and online marketplaces. Final legislation has not been approved by the Plurinational Assembly."
+  },
+  {
+    "countryCode": "MX",
+    "countryName": "Mexico",
+    "status": "proposed",
+    "taxRate": null,
+    "revenueThreshold": {
+      "global": null,
+      "domestic": null,
+      "currency": "MXN"
+    },
+    "affectedCompanies": ["Netflix", "Spotify", "Google", "Uber", "Facebook/Meta"],
+    "estimatedAnnualRevenue": null,
+    "effectiveDate": null,
+    "proposalDate": "2020-06-01",
+    "notes": "Mexico has had several legislative proposals for a standalone Digital Services Tax targeting large digital platforms. While Mexico applies ISR (income tax) withholding on payments to non-residents, a dedicated gross-revenue DST modeled on European frameworks has been debated but not enacted. The SAT (Mexican tax authority) has proposed enhanced enforcement mechanisms for digital economy participants."
+  },
+  {
+    "countryCode": "DE",
+    "countryName": "Germany",
+    "status": "negotiating",
+    "taxRate": null,
+    "revenueThreshold": {
+      "global": null,
+      "domestic": null,
+      "currency": "EUR"
+    },
+    "affectedCompanies": ["Google", "Facebook/Meta", "Amazon", "Apple"],
+    "estimatedAnnualRevenue": null,
+    "effectiveDate": null,
+    "proposalDate": null,
+    "notes": "Germany has been the most vocal opponent of unilateral DSTs, calling them trade barriers and pushing for OECD Pillar One as the only acceptable path. Germany actively applies diplomatic pressure against EU member states that enact DSTs and has been a key voice in OECD negotiations. Germany has no standalone DST; it applies standard EU VAT to digital services."
+  },
+  {
+    "countryCode": "IE",
+    "countryName": "Ireland",
+    "status": "negotiating",
+    "taxRate": null,
+    "revenueThreshold": {
+      "global": null,
+      "domestic": null,
+      "currency": "EUR"
+    },
+    "affectedCompanies": ["Google", "Facebook/Meta", "Apple", "Microsoft", "LinkedIn"],
+    "estimatedAnnualRevenue": null,
+    "effectiveDate": null,
+    "proposalDate": null,
+    "notes": "Ireland — home to the European headquarters of Google, Meta, Apple, and many other tech companies — has resisted standalone DSTs. Ireland adopted the OECD global 15% minimum corporate tax (Pillar Two) but opposes revenue-based DSTs as economically distortive. It participates in OECD Pillar One negotiations. No standalone DST exists."
+  },
+  {
+    "countryCode": "NL",
+    "countryName": "Netherlands",
+    "status": "negotiating",
+    "taxRate": null,
+    "revenueThreshold": {
+      "global": null,
+      "domestic": null,
+      "currency": "EUR"
+    },
+    "affectedCompanies": ["Google", "Facebook/Meta", "Amazon", "Booking.com", "Netflix"],
+    "estimatedAnnualRevenue": null,
+    "effectiveDate": null,
+    "proposalDate": null,
+    "notes": "The Netherlands has expressed preference for a multilateral OECD solution and has not enacted a DST. Dutch lawmakers have commissioned DST impact studies, and the government participates actively in OECD Pillar One discussions. The Netherlands applies EU VAT to digital services but has no standalone DST."
+  },
+  {
+    "countryCode": "SE",
+    "countryName": "Sweden",
+    "status": "negotiating",
+    "taxRate": null,
+    "revenueThreshold": {
+      "global": null,
+      "domestic": null,
+      "currency": "SEK"
+    },
+    "affectedCompanies": ["Google", "Facebook/Meta", "Amazon", "Spotify", "Apple"],
+    "estimatedAnnualRevenue": null,
+    "effectiveDate": null,
+    "proposalDate": null,
+    "notes": "Sweden has opposed unilateral DSTs and supports the OECD multilateral approach. As home to global tech companies including Spotify and Klarna, Sweden is mindful of retaliation from US trading partners. Sweden applies EU VAT to digital services but has no standalone DST."
+  },
+  {
+    "countryCode": "SN",
+    "countryName": "Senegal",
+    "status": "negotiating",
+    "taxRate": null,
+    "revenueThreshold": {
+      "global": null,
+      "domestic": null,
+      "currency": "XOF"
+    },
+    "affectedCompanies": ["Google", "Facebook/Meta", "Orange", "Netflix"],
+    "estimatedAnnualRevenue": null,
+    "effectiveDate": null,
+    "proposalDate": null,
+    "notes": "Senegal has been engaged in African Union-led discussions on digital economy taxation and has conducted policy studies on DST frameworks. No formal legislation has been introduced, but Senegal has expressed intent to tax multinational digital platforms as part of broader African digital tax coordination. No standalone DST currently exists."
+  },
+  {
+    "countryCode": "UG",
+    "countryName": "Uganda",
+    "status": "negotiating",
+    "taxRate": null,
+    "revenueThreshold": {
+      "global": null,
+      "domestic": null,
+      "currency": "UGX"
+    },
+    "affectedCompanies": ["Google", "Facebook/Meta", "Netflix", "Airtel"],
+    "estimatedAnnualRevenue": null,
+    "effectiveDate": null,
+    "proposalDate": null,
+    "notes": "Uganda previously implemented a controversial social media tax (OTT levy) in 2018, which was restructured after public backlash. Uganda has been consulting with the IMF and regional bodies on a formal DST framework to tax foreign digital services providers. A formal DST bill is under review but has not been enacted."
+  },
+  {
+    "countryCode": "GH",
+    "countryName": "Ghana",
+    "status": "negotiating",
+    "taxRate": null,
+    "revenueThreshold": {
+      "global": null,
+      "domestic": null,
+      "currency": "GHS"
+    },
+    "affectedCompanies": ["Google", "Facebook/Meta", "Netflix", "Uber"],
+    "estimatedAnnualRevenue": null,
+    "effectiveDate": null,
+    "proposalDate": null,
+    "notes": "Ghana introduced an E-Levy on mobile money transactions in 2022, but a formal standalone Digital Services Tax targeting large foreign digital platforms is under active study by the GRA and Finance Ministry. No DST legislation has been enacted; Ghana participates in OECD discussions on digital economy taxation as part of the African Tax Administration Forum (ATAF)."
+  },
+  {
+    "countryCode": "AR",
+    "countryName": "Argentina",
+    "status": "negotiating",
+    "taxRate": null,
+    "revenueThreshold": {
+      "global": null,
+      "domestic": null,
+      "currency": "ARS"
+    },
+    "affectedCompanies": ["Netflix", "Google", "Facebook/Meta", "Uber", "Airbnb"],
+    "estimatedAnnualRevenue": null,
+    "effectiveDate": null,
+    "proposalDate": null,
+    "notes": "Argentina applies provincial gross revenue taxes and a PAIS surcharge on digital services consumed domestically, and AFIP has extended VAT to foreign digital services — but these are not standalone DSTs. Argentine lawmakers have studied a federal DST modeled on European frameworks, but no formal bill has been introduced or enacted at the national level."
+  },
+  {
+    "countryCode": "TH",
+    "countryName": "Thailand",
+    "status": "negotiating",
+    "taxRate": null,
+    "revenueThreshold": {
+      "global": null,
+      "domestic": null,
+      "currency": "THB"
+    },
+    "affectedCompanies": ["Netflix", "Google", "Facebook/Meta", "Spotify", "Line"],
+    "estimatedAnnualRevenue": null,
+    "effectiveDate": null,
+    "proposalDate": null,
+    "notes": "Thailand's 2021 Electronic Services Act extended standard 7% VAT to foreign digital service providers — this is indirect tax reform, not a standalone DST. However, Thailand's Revenue Department is actively studying a separate revenue-based DST for large multinational digital platforms. A formal proposal is under internal government review."
+  },
+  {
+    "countryCode": "US",
+    "countryName": "United States",
+    "status": "none",
+    "taxRate": null,
+    "revenueThreshold": {
+      "global": null,
+      "domestic": null,
+      "currency": "USD"
+    },
+    "affectedCompanies": [],
+    "estimatedAnnualRevenue": null,
+    "effectiveDate": null,
+    "proposalDate": null,
+    "notes": "The United States has strongly opposed all foreign DSTs as discriminatory against US technology companies and has launched Section 301 trade investigations against France, the UK, Italy, Spain, Austria, Turkey, India, and others. The US has threatened and in some cases imposed retaliatory tariffs. Washington favors OECD/G20 Pillar One as the preferred multilateral replacement. No US federal DST exists."
+  },
+  {
+    "countryCode": "JP",
+    "countryName": "Japan",
+    "status": "none",
+    "taxRate": null,
+    "revenueThreshold": {
+      "global": null,
+      "domestic": null,
+      "currency": "JPY"
+    },
+    "affectedCompanies": [],
+    "estimatedAnnualRevenue": null,
+    "effectiveDate": null,
+    "proposalDate": null,
+    "notes": "Japan applies its Consumption Tax (JCT) to cross-border digital services as part of its standard indirect tax system — this is VAT extension, not a standalone DST. Japan has not enacted a revenue-based Digital Services Tax targeting tech companies. Japan participates in OECD Pillar One negotiations and prefers the multilateral approach over unilateral DSTs."
+  },
+  {
+    "countryCode": "AU",
+    "countryName": "Australia",
+    "status": "none",
+    "taxRate": null,
+    "revenueThreshold": {
+      "global": null,
+      "domestic": null,
+      "currency": "AUD"
+    },
+    "affectedCompanies": [],
+    "estimatedAnnualRevenue": null,
+    "effectiveDate": null,
+    "proposalDate": null,
+    "notes": "Australia has extended its standard GST to imported digital services — this is indirect tax reform, not a standalone DST. Australia has not enacted a revenue-based Digital Services Tax. It has passed domestic minimum tax legislation aligned with the global 15% minimum and prefers the OECD multilateral approach."
+  },
+  {
+    "countryCode": "KR",
+    "countryName": "South Korea",
+    "status": "none",
+    "taxRate": null,
+    "revenueThreshold": {
+      "global": null,
+      "domestic": null,
+      "currency": "KRW"
+    },
+    "affectedCompanies": [],
+    "estimatedAnnualRevenue": null,
+    "effectiveDate": null,
+    "proposalDate": null,
+    "notes": "South Korea extended its VAT to cross-border digital services — this is indirect tax reform, not a standalone DST. South Korea has not enacted a Digital Services Tax targeting digital companies' gross revenues. It participates in OECD Pillar One discussions and applies standard 10% VAT on digital service imports."
+  },
+  {
+    "countryCode": "SG",
+    "countryName": "Singapore",
+    "status": "none",
+    "taxRate": null,
+    "revenueThreshold": {
+      "global": null,
+      "domestic": null,
+      "currency": "SGD"
+    },
+    "affectedCompanies": [],
+    "estimatedAnnualRevenue": null,
+    "effectiveDate": null,
+    "proposalDate": null,
+    "notes": "Singapore extended its GST to imported digital services in 2020 — this is standard indirect tax reform, not a standalone DST. Singapore has not enacted a revenue-based Digital Services Tax. As a regional financial hub, Singapore closely monitors global DST developments while participating in OECD negotiations."
+  },
+  {
+    "countryCode": "NO",
+    "countryName": "Norway",
+    "status": "none",
+    "taxRate": null,
+    "revenueThreshold": {
+      "global": null,
+      "domestic": null,
+      "currency": "NOK"
+    },
+    "affectedCompanies": [],
+    "estimatedAnnualRevenue": null,
+    "effectiveDate": null,
+    "proposalDate": null,
+    "notes": "Norway applies its standard VAT to cross-border digital services — this is not a standalone DST. Norway has studied but not enacted a revenue-based Digital Services Tax. As a non-EU EEA member, Norway tracks EU digital tax proposals and participates in OECD Pillar One consultations."
+  },
+  {
+    "countryCode": "CH",
+    "countryName": "Switzerland",
+    "status": "none",
+    "taxRate": null,
+    "revenueThreshold": {
+      "global": null,
+      "domestic": null,
+      "currency": "CHF"
+    },
+    "affectedCompanies": [],
+    "estimatedAnnualRevenue": null,
+    "effectiveDate": null,
+    "proposalDate": null,
+    "notes": "Switzerland has not enacted a standalone DST. It implemented the OECD global minimum tax (Pillar Two) domestically and applies standard VAT on digital services. As home to European headquarters of many multinationals, Switzerland monitors DST developments and prefers the OECD multilateral framework."
+  },
+  {
+    "countryCode": "MY",
+    "countryName": "Malaysia",
+    "status": "none",
+    "taxRate": null,
+    "revenueThreshold": {
+      "global": null,
+      "domestic": null,
+      "currency": "MYR"
+    },
+    "affectedCompanies": [],
+    "estimatedAnnualRevenue": null,
+    "effectiveDate": null,
+    "proposalDate": null,
+    "notes": "Malaysia applies a 10% Service Tax on imported digital services — this is an indirect tax extension, not a standalone DST targeting digital companies' gross revenues. Malaysia has not enacted a separate Digital Services Tax. The Malaysian government applies the Service Tax as part of its standard indirect tax framework."
+  },
+  {
+    "countryCode": "ZA",
+    "countryName": "South Africa",
+    "status": "none",
+    "taxRate": null,
+    "revenueThreshold": {
+      "global": null,
+      "domestic": null,
+      "currency": "ZAR"
+    },
+    "affectedCompanies": [],
+    "estimatedAnnualRevenue": null,
+    "effectiveDate": null,
+    "proposalDate": null,
+    "notes": "South Africa was an early mover in extending its standard VAT to foreign digital service providers (2014), broadened in 2019 — this is indirect tax reform, not a standalone DST. A separate revenue-based Digital Services Tax has been studied by National Treasury but has not been enacted. South Africa participates in OECD Pillar One negotiations via the ATAF."
+  },
+  {
+    "countryCode": "PH",
+    "countryName": "Philippines",
+    "status": "none",
+    "taxRate": null,
+    "revenueThreshold": {
+      "global": null,
+      "domestic": null,
+      "currency": "PHP"
+    },
+    "affectedCompanies": [],
+    "estimatedAnnualRevenue": null,
+    "effectiveDate": null,
+    "proposalDate": null,
+    "notes": "The Philippines requires non-resident digital service providers to register and remit VAT at 12% — this is indirect tax extension, not a standalone DST. Congress has considered an explicit DST bill targeting digital advertising revenue, but it remains under deliberation and has not been enacted. No standalone Digital Services Tax is in force."
+  }
+]
