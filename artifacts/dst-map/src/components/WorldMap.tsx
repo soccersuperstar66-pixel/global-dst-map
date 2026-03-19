@@ -11,10 +11,8 @@ interface WorldMapProps {
   activeFilters: Set<DSTStatus>;
 }
 
-/** GeoJSON served from /public/countries.geojson — vendored locally for reliability. */
-/** GeoJSON fetched from GitHub CDN. For local dev with a cached copy, download from:
- *  https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson
- *  and place it in public/countries.geojson */
+/** GeoJSON fetched from GitHub CDN. For local dev with a cached copy, download via:
+ *  sh scripts/download-geojson.sh */
 const WORLD_GEOJSON_URL =
   "https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson";
 

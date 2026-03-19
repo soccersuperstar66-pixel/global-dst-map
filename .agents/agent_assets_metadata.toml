@@ -1,0 +1,8 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "KYqDMBgP2Aa0XIojXj3S8"
+uri = "file://artifacts/dst-map/README.md"
+type = "text"
+title = "Global DST Tracker — README"
